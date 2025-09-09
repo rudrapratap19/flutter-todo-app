@@ -2,6 +2,8 @@
 
 A comprehensive Flutter application for managing todos with advanced features and backend integration.
 
+[Download APK](https://github.com/rudrapratap19/flutter-todo-app/releases/download/v1.0.0/app-release.apk)
+
 ## Getting Started
 
 This project serves as a robust Flutter todo app including:
@@ -32,9 +34,40 @@ Helpful resources if new to Flutter:
 - **Sync:** Real-time updates via Supabase subscriptions
 - **Export:** Export and copy your todo list as CSV file to clipboard
 
-## Screenshots
+## 📸 Screenshots
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github.com/rudrapratap19/flutter-todo-app/blob/main/screenshot/Home%201.jpg" width="200"/></td>
+      <td><img src="https://github.com/rudrapratap19/flutter-todo-app/blob/main/screenshot/Add%20To%20Do.jpg" width="200"/></td>
+      <td><img src="https://github.com/rudrapratap19/flutter-todo-app/blob/main/screenshot/Login.jpg" width="200"/></td>
+      <td><img src="https://github.com/rudrapratap19/flutter-todo-app/blob/main/screenshot/Recurrnig.jpg" width="200"/></td>
+    </tr>
+    <tr>
+      <td align="center"><em>Home Screen</em></td>
+      <td align="center"><em>Add Todo</em></td>
+      <td align="center"><em>Login Screen</em></td>
+      <td align="center"><em>Recurring Tasks</em></td>
+    </tr>
+  </table>
+</div>
 
-_(Add screenshots here to illustrate your app UI)_
+
+
+## 🛠️ Tech Stack
+
+| Technology          | Purpose                                         |
+|---------------------|-------------------------------------------------|
+| **Flutter**         | Cross-platform UI development                     |
+| **Dart**            | Primary programming language                      |
+| **Supabase**        | Backend-as-a-Service for auth and realtime DB    |
+| **Provider**        | State management for reactive UI                  |
+| **flutter_local_notifications** | Local notifications handled with scheduling       |
+| **Intl**            | Formatting dates and times                         |
+| **csv**             | Generate CSV exports                               |
+| **clipboard**       | Clipboard integration for copying CSV data        |
+| **Firebase (Optional)** | Push notifications and analytics integration       |
+| **Android Studio / VS Code** | Development and debugging IDEs                   |
 
 ## Project Setup
 
@@ -57,18 +90,6 @@ Configure your Supabase credentials and Firebase if applicable in the project.
 Run the app:
 
 flutter run
-
-## Project Structure
-
-lib/
-├── main.dart # Entry point with providers and initialization
-├── auth_service.dart # Authentication logic with Supabase
-├── todo_service.dart # Business logic for todos and syncing
-├── todo_model.dart # Todo data model definition
-├── notification_service.dart # Handles local notifications scheduling
-├── home_screen.dart # Main screen showing todo list and filters
-├── add_todo_screen.dart # Screen to add new todos with details
-├── login_screen.dart # Login screen for Google sign-in
 
 
 ## Usage
@@ -97,7 +118,7 @@ Licensed under the MIT License.
 
 ## Contact
 
-For questions or support, contact: your-email@example.com
+For questions or support, contact: rpsinghiiitr@gmail.com
 
 ---
 
