@@ -19,6 +19,7 @@ const SUPABASE_URL = "https://xrfdahjcuzrekkxvotsh.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhyZmRhaGpjdXpyZWtreHZvdHNoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcyNDg1ODEsImV4cCI6MjA3MjgyNDU4MX0.j8DK70q93QFmi_CpHmU1_7Gn6dbRm00aNaV0oBAmWEU";
 
 Future main() async {
+  
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
@@ -47,6 +48,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Todo Reminder',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.indigo,
           fontFamily: 'Roboto',
